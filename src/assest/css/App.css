@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.preloader {
+  height: 100vh;
+}
+
+.preloader > .row {
+  height: 100vh;
+}
+
+/* copmlain section start */
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-image: url("../images/bg-image.png");
+}
+
+.polygon {
+  width: 430px;
+  background-repeat: no-repeat;
+  background-image: url("../images/polygon.svg");
+  background-position: bottom;
+}
+
+.side-image {
+  position: relative;
+  right: 25px;
+}
+.modi-img {
+  position: absolute;
+  left: -63px;
+  z-index: 1;
+}
+.yogi-img {
+  position: absolute;
+  left: -102px;
+}
+.rakesh-img {
+  position: absolute;
+  left: -30px;
+}
+.para {
+  color: #004b97;
+  text-align: center;
+  text-shadow: 0px 0px 1px #004b97;
+  padding-bottom: 70px;
+}
+.para h5 {
+  font-size: 29px;
+  font-weight: 600;
+}
+.para p {
+  font-weight: 600;
+}
+.main-box {
+  opacity: 0.9;
+}
+.box {
+  width: 300px;
+  height: 190px;
+  border-radius: 15px;
+  background-color: #a5d9ff;
+}
+.text {
+  text-align: center;
+  color: #004b97;
+}
+.text h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.text p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.com-app p {
+  margin: 0px;
+  font-weight: 600;
+  color: #c50f0f;
+}
+.com-app span {
+  font-weight: 600;
+  color: #3c714b;
+}
+.num-box {
+  width: 110px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num-box-second {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 14px 0px rgb(79, 78, 78);
+}
+span.counter{
+  display: flex;
+  justify-content: center;
+  margin-top: -2px;
+  color: black;
+}
+.polygon-second {
+  background-image: url("../../assest/images/second-polygon.svg");
+  background-repeat: no-repeat;
+ }
+.polysecond-text {
+  text-align: center;
+}
+.polysecond-text p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #004b97;
+  padding-top: 80px;
+  text-shadow: 0px 0px 1px #004b97;
+}
+.polysecond-text span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #004b97;
+  text-shadow: 0px 0px 1px #004b97;
+}
+
+.btn-danger {
+  width: 100px;
+  height: 35px;
+  background-color: #c50f0f;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: -3px 4px 0px #c50f0f;
+  border: none;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+.btn-success {
+  background-color: #3c714b;
+  color: white;
+  width: 100px;
+  height: 35px;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: -3px 4px 0px #3c714b;
+  border: none;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+.btn-text {
+  font-weight: 600;
+  color: #004b97;
+  text-shadow: 0px 0px 1px #004b97;
+}
+.facebook-icon {
+  font-size: 27px;
+  margin-top: -5px;
+}
+.twitter-icon {
+  font-size: 30px;
+  margin-top: -6px;
+}
+.instagram-icon {
+  font-size: 23px;
+}
+
+@media screen and (max-width: 430px) {
+  .polysecond-text span{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 390px){
+  .polysecond-text span{
+    font-size: 15px;
+  }
+
+}
+@media screen and (max-width: 340px){
+  .side-image{
+    right: 35px;
+  }
+
+}
+@media screen and (max-width: 330px){
+  .complain-logo{
+    margin-left: 10px;
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+  .person-icon {
+    padding-left: 40px;
+  }
+  .bars-icon {
+    padding-right: 40px;
+  }
+}
+
+/* dummy-home-second */
+.background-image {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-image: url("../images/bg-image.png");
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #a5d9ff;
+  box-shadow: -2px 2px 0px rgb(176, 174, 174);
+}
+.third-polygon {
+  width: 430px;
+  height: 452px;
+  background-repeat: no-repeat;
+  background-image: url("../images/third-polygon.svg");
+}
+.input-text {
+  padding-top: 30px;
+  color: #004b97;
+  font-weight: 600;
+}
+.input-text p {
+  margin-bottom: -20px;
+  margin-left: 15px;
+}
+input {
+  border: none;
+  border-radius: 18px;
+  width: 200px;
+  height: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn button {
+  color: white;
+  background-color: #63b1e9;
+  width: 100px;
+  height: 35px;
+  font-weight: 700;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: -2px 2px 0px rgb(176, 174, 174);
+}
+.para-text {
+  font-size: small;
+}
