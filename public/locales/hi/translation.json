@@ -1,11 +1,11 @@
 {
-    "nagarPalikaLabel":"नगर पालिका परिषद",
-    "welcomeLabel":"केशवपुरम में आपका स्वागत है|",
-    "opinionFirstLabel":"आपकी राय",
-    "opinionSecondLabel":"हमे और बेहतर बनाती है|",
-    "complaintLabel":"शिकायत",
-    "appreciationLabel":"सराहना",
-    "pleaseYourLabel":"कृपया अपनी",
-    "registerFeedbackLabel":"शिकायत या सराहना दर्ज करें|",
-    "followUsLabel":"हमारा अनुसरण करें|"
+  "nagarPalikaLabel": "नगर पालिका परिषद",
+  "kushinagarWardKe": "कुशीनगर वार्ड के <br> केशवपुरम में आपका स्वागत <br> है|",
+  "opinionFirstLabel": "आपकी राय",
+  "opinionSecondLabel": "हमे और बेहतर बनाती है|",
+  "complaintLabel": "शिकायत",
+  "appreciationLabel": "सराहना",
+  "pleaseYourLabel": "कृपया अपनी",
+  "registerFeedbackLabel": "शिकायत या सराहना दर्ज करें|",
+  "followUsLabel": "हमारा अनुसरण करें|"
 }

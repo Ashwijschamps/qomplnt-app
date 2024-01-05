@@ -65,33 +65,35 @@
 
 .side-image {
   position: relative;
-  right: 25px;
+  right: 80px;
 }
 .modi-img {
-  position: absolute;
-  left: -63px;
-  z-index: 1;
+  z-index: 99;
 }
 .yogi-img {
   position: absolute;
-  left: -102px;
+  left: 56px;
+  z-index: 1;
+  margin-top: 5px;
 }
 .rakesh-img {
   position: absolute;
-  left: -30px;
+  left: 101px;
+  margin-top: 10px;
 }
 .para {
   color: #004b97;
   text-align: center;
   text-shadow: 0px 0px 1px #004b97;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 .para h5 {
   font-size: 29px;
   font-weight: 600;
 }
 .para p {
-  font-weight: 600;
+  margin-bottom: 3px;
+  font-size: 18px;
 }
 .main-box {
   opacity: 0.9;
@@ -140,7 +142,7 @@
   border-radius: 50%;
   box-shadow: 0px 5px 14px 0px rgb(79, 78, 78);
 }
-span.counter{
+span.counter {
   display: flex;
   justify-content: center;
   margin-top: -2px;
@@ -149,7 +151,7 @@ span.counter{
 .polygon-second {
   background-image: url("../../assest/images/second-polygon.svg");
   background-repeat: no-repeat;
- }
+}
 .polysecond-text {
   text-align: center;
 }
@@ -209,27 +211,24 @@ span.counter{
 }
 
 @media screen and (max-width: 430px) {
-  .polysecond-text span{
+  .polysecond-text span {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 390px){
-  .polysecond-text span{
+@media screen and (max-width: 390px) {
+  .polysecond-text span {
     font-size: 15px;
   }
-
 }
-@media screen and (max-width: 340px){
-  .side-image{
-    right: 35px;
+@media screen and (max-width: 360px) {
+  .side-image {
+    right: 100px;
   }
-
 }
-@media screen and (max-width: 330px){
-  .complain-logo{
+@media screen and (max-width: 330px) {
+  .complain-logo {
     margin-left: 10px;
   }
-
 }
 
 @media screen and (max-width: 390px) {

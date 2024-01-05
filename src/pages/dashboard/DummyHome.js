@@ -51,11 +51,11 @@ const DummyHome = () => {
                 </div>
                 <div className="side-image d-flex justify-content-center ">
                   
-                  <div className="yogi-img">
-                    <img src={Yogi} alt="yogi.svg" />
-                  </div>
                   <div className="modi-img">
                     <img src={Modi} alt="modi.svg" />
+                  </div>
+                  <div className="yogi-img">
+                    <img src={Yogi} alt="yogi.svg" />
                   </div>
                   <div className="rakesh-img">
                     <img src={Rakesh} alt="rakesh.svg" />
@@ -64,7 +64,7 @@ const DummyHome = () => {
               </div>
               <div className="para mt-3">
                 <h5>{t("nagarPalikaLabel")}</h5>
-                <p>{t("welcomeLabel")}</p>
+                <p dangerouslySetInnerHTML={{__html : t("kushinagarWardKe")}}></p>
               </div>
             </div>
             <div className="main-box d-flex justify-content-center mt-3">
